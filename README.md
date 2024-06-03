@@ -21,6 +21,17 @@ Features and bug fixes will roll out regularily.
   * requests
   * scrython
 * Tesseract-OCR
+### Hardware
+* Document Scanner
+### Quick-Start Guide
+1. Install Python on your local machine
+2. Clone this repository on your local machine
+3. Run the install_requirements script in the Installation folder
+   * Windows: install_requirements.ps1
+   * Mac/Linux: install_requirements.sh
+4. Install tesseract-ocr
+5. Add tesseract-ocr to your PATH environment
+6. Run driver.py to start the program
 
 ## Authors
 Seth Urbach
