@@ -130,9 +130,9 @@ class GUI(Tk):
         nonfoil_cards = []
         etched_cards = []
         correct_cards = []
-        to_save = pd.DataFrame(columns=['Name', 'Set Name', "Set Code", "CMC", "Price", 'Finish', "Collector Number", 
+        to_save = pd.DataFrame(columns=["Name", "Set Name", "Set Code", "CMC", "Price", "Finish", "Collector Number", 
                                           "Rarity", "Legalities", "Colors", "Color Identity", "Image URIs",
-                                          "Border Color", 'Type Line'])
+                                          "Border Color", "Type Line"])
         def foil_card():
             foil_cards.append(i)
             correct_cards.append(i)
